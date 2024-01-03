@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.container svg {
+    font-size: 24px;
+    /* Adjust the icon size */
+    color: white;
+    /* Set the icon color */
+    margin: 0 14px;
+    /* Add spacing between icons */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}
+
+.container svg:hover {
+    color: #55acee;
+    /* Change icon color on hover */
+}
